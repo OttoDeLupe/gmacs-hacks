@@ -1,0 +1,44 @@
+From: gary@sabot.com (Gary Sabot)
+To: gary-gmacs19-hacks-announce@sabot.com, tim
+Subject: updated gmacs hacks
+Date: Tue, 2 May 95 20:16:50 EDT
+
+
+I put a newer version of the gmacs hacks at the ftp site today.  The
+old version is still there, renamed to something like gmacs-hacks.old.
+
+The only changes are minor fixes:
+
+  ;;----------------
+  ;; This is version 19.25.03 of this file.
+  ;; Changes since last time: 
+  ;    1.  Fixed rmail-show-message-hook bug in rmail-autokill.el
+  ;;   2.  jmincy@avid.com:  More hooks for comint-previous-similar-input.
+  ;;   3.  jonny@Synopsys: fix to comint-previous-similar-input for 19.26
+  ;;   4.  jonny@Synopsys: fix to rmail-autokill-internal for long message-id header
+  ;;   5.  jmincy@avid.com:  fix automodes for c++ vs c
+  ;;   6.  fixed .q automode for S
+  ;;   Other misc cleanups.
+
+No one other than me has tested the new "fixed" tar file.  So if you
+try it out and I messed something up relative to the old (i.e., forgot
+to include some key .el file), please let me know.
+
+GENERIC DIRECTIONS:
+
+	Anonymous ftp ftp.ai.mit.edu to get the file:
+	   pub/users/sabot/gmacs-hacks.tar.gz
+	gunzip gmacs-hacks.tar.gz to uncompress
+	untar it, and look at the comments at the start of load-tmc-hacks.el
+
+      Also, if you want me to be on the notification list when I put a new
+      version at the ftp site, email me.
+
+--gary
+_______________________________________________________
+Gary Sabot              |  Voice:    +1 (617) 492-7119
+Sabot Associates, Inc.  |  FAX:      +1 (617) 864-4196 
+112-C Inman Street      |  Internet: gary@sabot.com
+Cambridge, MA 02139 USA |  
+-------------------------------------------------------
+
